@@ -36,6 +36,7 @@
         instagram: ['fab', 'instagram'],
         github: ['fab', 'github'],
         youtube: ['fab', 'youtube'],
+        linkedin: ['fab', 'linkedin'],
         feed: 'rss',
       }
 

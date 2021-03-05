@@ -5,7 +5,7 @@
     <SearchBox class="mb-5" />
 
     <section v-if="profile.name" class="block profile">
-      <h3 class="mt-0 mb-5">Profile</h3>
+      <h3 class="mt-0 mb-5">¿Quién escribe?</h3>
       <div class="d-flex">
         <v-avatar v-if="profile.avatarUrl" class="mr-3">
           <img :src="profile.avatarUrl" alt="avatar">
@@ -22,8 +22,8 @@
 
     <section v-if="hotTags.length" class="block tags">
       <div class="d-flex align-center mb-5">
-        <h3 class="ma-0">Hot Tags</h3>
-        <router-link to="/tag/" class="ml-3">See all</router-link>
+        <h3 class="ma-0">Etiquetas</h3>
+        <router-link to="/tag/" class="ml-3">Ver todas</router-link>
       </div>
       <v-chip
         v-for="tag in hotTags"
@@ -36,7 +36,7 @@
     </section>
 
     <section v-if="recentPosts.length" class="block recent-posts">
-      <h3 class="mt-0 mb-5">Recent Posts</h3>
+      <h3 class="mt-0 mb-5">Últimas publicaciones</h3>
       <ul>
         <li v-for="post in recentPosts">
           <router-link :to="post.path">{{ post.title }}</router-link>

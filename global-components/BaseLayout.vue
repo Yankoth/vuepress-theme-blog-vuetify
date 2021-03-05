@@ -111,5 +111,9 @@
         color: $color-app-bar-title !important;
       }
     }
+    .site-title span {
+      font-family: $font-title-family;
+      font-size: $font-title-size;
+    }
   }
 </style>
