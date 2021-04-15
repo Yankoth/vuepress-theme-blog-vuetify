@@ -97,6 +97,7 @@ module.exports = (option, ctx) => {
       github: '',
       youtube: '',
       linkedin: '',
+      twitch: '',
       feed: '/rss.xml',
       order: [
         'twitter',
@@ -105,6 +106,7 @@ module.exports = (option, ctx) => {
         'github',
         'youtube',
         'linkedin',
+        'twitch',
         'feed',
       ],
     },

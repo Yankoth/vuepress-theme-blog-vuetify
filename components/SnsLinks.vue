@@ -37,6 +37,7 @@
         github: ['fab', 'github'],
         youtube: ['fab', 'youtube'],
         linkedin: ['fab', 'linkedin'],
+        twitch: ['fab', 'twitch'],
         feed: 'rss',
       }
 
